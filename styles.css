@@ -5,7 +5,7 @@ body {
   text-align: center;
   direction: rtl;
   color: #333;
-  font-size: 15px;      /* تم تقليله ليصبح مريحاً على GitHub Pages */
+  font-size: 15px;      
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -37,7 +37,7 @@ section {
   border-right: 4px solid #1976d2;
   width: 90%;
   text-align: right;
-  max-width: 850px; /* يقلل التمدد */
+  max-width: 850px; 
 }
 
 /* ===== الشعار ===== */
@@ -156,3 +156,4 @@ section:first-of-type p {
   video, img { max-width: 100%; }
   table, p, ul { font-size: 13px; }
 }
+
