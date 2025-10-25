@@ -1,155 +1,155 @@
 /* ===== إعدادات عامة ===== */
 body {
   background-color: #f5f7fa;
-  font-family: "Tahoma";
+  font-family: "Tahoma", sans-serif;
   text-align: center;
   direction: rtl;
   color: #333;
-  font-size: 20px;        
-  line-height: 1.8;       
+  font-size: 16px;      /* أصغر من 20px لتناسب كل الشاشات */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 /* ===== رأس وتذييل الموقع ===== */
 header {
   background-color: #1976d2;
   color: white;
-  padding: 25px;
+  padding: 20px;
 }
 header, footer {
   text-align: center;
 }
-
 footer {
   background-color: #1976d2;
   color: white;
-  padding: 15px;
-  font-size: 18px;
+  padding: 10px;
+  font-size: 15px;
 }
 
 /* ===== الأقسام العامة ===== */
 section {
   background: white;
-  margin: 25px auto;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
   border-right: 4px solid #1976d2;
   width: 90%;
   text-align: right;
+  max-width: 900px;    /* يمنع التمدد الكبير */
 }
 
 /* ===== الشعار ===== */
 .logo {
-  width: 150px;
+  width: 120px;
   border-radius: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 /* ===== صور الغلاف ===== */
 .banner img {
   width: 100%;
-  max-height: 320px;
+  max-height: 250px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
 /* ===== العناوين ===== */
 h1 {
-  font-size: 34px;
+  font-size: 28px;
 }
 h2 {
   color: #1976d2;
-  font-size: 26px;
-  margin-bottom: 15px;
+  font-size: 22px;
+  margin-bottom: 10px;
   border-bottom: 2px solid #1976d2;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
 }
 h3 {
   color: #0d47a1;
-  font-size: 22px;
-  margin-top: 15px;
+  font-size: 18px;
+  margin-top: 10px;
 }
-
 
 /* ===== الفقرات ===== */
 p {
-  font-size: 20px;
-  line-height: 1.9;
+  font-size: 16px;
+  line-height: 1.7;
   color: #222;
-  font-weight: 500;
 }
 
 /* ===== الصور ===== */
 img {
-  width: 80%;
-  max-width: 600px;
-  border-radius: 12px;
-  margin: 10px 0;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin: 10px auto;
+  display: block;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 img:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
 /* ===== الفيديوهات ===== */
 video {
-  border-radius: 12px;
-  margin: 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  max-width: 800px;
+  border-radius: 10px;
+  margin: 10px auto;
+  display: block;
+  max-width: 650px;
   width: 100%;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
 }
 
 /* ===== القوائم ===== */
 ul {
   list-style-type: "✔ ";
-  padding-right: 30px;
-  line-height: 2;
-  font-size: 20px;
+  padding-right: 20px;
+  line-height: 1.8;
+  font-size: 16px;
   color: #222;
 }
 ul li {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 /* ===== الجدول (المزايا والعيوب) ===== */
 table {
   width: 100%;
+  max-width: 800px;
   border-collapse: collapse;
-  margin-top: 20px;
-  font-size: 20px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  margin: 15px auto;
+  font-size: 15px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
 }
 th, td {
   border: 1px solid #ccc;
-  padding: 12px;
+  padding: 10px;
 }
 th {
   background-color: #1976d2;
   color: white;
-  font-size: 20px;
 }
 tr:nth-child(even) {
   background-color: #f5f7fa;
 }
 
-/* ===== تأثيرات تفاعلية للعناوين ===== */
-h2:hover {
-  color: #0d47a1;
-  transition: color 0.3s ease;
-}
-/* ===== فقرة التعريف الأولى (عن المشروع) ===== */
+/* ===== فقرة التعريف الأولى ===== */
 section:first-of-type {
   background-color: #e3f2fd;
-  border-right: 6px solid #1976d2;
-  padding: 25px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-right: 5px solid #1976d2;
+  padding: 20px;
 }
 section:first-of-type p {
-  font-size: 20px;
-  line-height: 1.9;
+  font-size: 16px;
 }
 
-
-
+/* ===== تحسين التجاوب مع الهواتف ===== */
+@media (max-width: 600px) {
+  body { font-size: 14px; }
+  h1 { font-size: 22px; }
+  h2 { font-size: 18px; }
+  video, img { max-width: 100%; }
+}
